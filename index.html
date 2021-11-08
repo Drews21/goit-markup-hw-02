@@ -12,19 +12,24 @@
     <!--------шрифт для навигации и подзаголовков---------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!--------plug in css----------->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <!--<img src="./images/logo.svg" alt="Лого сайта">----Picture of logo-->
         <a href="">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="">Студия</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
         <ul>
@@ -33,11 +38,12 @@
         </ul>
     </header>
     <main>
-        <section>
+        <section class="hero-section">
             <!--Секция с доводами-->
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
+            <button class="" type="button">Заказать услугу</button>
         </section>
+
         <section>
             <ul>
                 <li>
@@ -58,6 +64,7 @@
                 </li>
             </ul>
         </section>
+
         <section>
             <h2>Чем мы занимаемся</h2>
             <ul>
@@ -66,7 +73,8 @@
                 <li><img src="./images/box3.png" alt="руки и цветовая карта" width="370"></li>
             </ul>
         </section>
-        <section>
+
+        <section class="team">
             <!--Секция с портретами команды-->
             <h2>Наша команда</h2>
             <ul>

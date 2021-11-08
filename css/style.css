@@ -1,0 +1,21 @@
+:root {
+  --title-color: purple;
+}
+
+body {
+  font-family: "open sans", "sans-serif";
+}
+.hero-section {
+  background-color: teal;
+  max: width 700px;
+}
+
+.team {
+  background-color: tomato;
+  max: width 700px;
+}
+
+.menu-port {
+  background-color: violet;
+  max: width 700px;
+}
