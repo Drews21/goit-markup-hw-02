@@ -1,21 +1,82 @@
 :root {
-  --title-color: purple;
+  /*---filters button colors---*/
+  --btn-bg-active: #2196F3;
+  --btn-bg-standby: #F5F4FA;
+  --filter-text-on: #ffffff;
+  --filter-text-off: #212121;
+  --accent-color:#2196F3;
+  --projects-title-color: #212121;
+  --projects-item-color: #757575;
 }
 
 body {
   font-family: "open sans", "sans-serif";
 }
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.list{
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
 .hero-section {
   background-color: teal;
-  max: width 700px;
+  width 700px;
 }
 
 .team {
   background-color: tomato;
-  max: width 700px;
+  width 700px;
 }
 
-.menu-port {
+.filters {
   background-color: violet;
-  max: width 700px;
+  width 200px;
+}
+
+.filter-button {
+  text-decoration: none;
+  background-color: F5F4FA;
+}
+
+.filter-link {
+  text-decoration: none;
+  color: /*--212121;*/var(--filter-text-off)
+}
+
+.projects-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: var(--projects-title-color);
+}
+
+.projects-item{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.8;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: var(--projects-item-color);
 }
