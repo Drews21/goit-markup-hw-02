@@ -1,4 +1,5 @@
 :root {
+  --footer-bg: #2f303a;
   /*---filters button colors---*/
   --btn-bg-active: #2196f3;
   --btn-bg-standby: #f5f4fa;
@@ -68,6 +69,59 @@ body {
   text-decoration: none;
 }
 
+/*******стили для странички Студия***********/
+
+.team-list {
+}
+.team-item {
+}
+.team-title {
+}
+.team-img {
+}
+.skills {
+}
+.skills-list {
+}
+.skills-item {
+}
+.skills-title {
+}
+.skills-subtitle {
+}
+.doing {
+}
+.doing-list {
+}
+.doing-item {
+}
+.doing-img {
+}
+
+/*******стили для странички Портфолио***********/
+
+/*************filter************/
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--btn-bg-active);
+}
+
+.filters {
+  background-color: violet;
+  width: 200;
+}
+
+.filter-item {
+  text-decoration: none;
+  background-color: #f5f4fa;
+}
+
+.filter-link {
+  text-decoration: none;
+  color: var(--filter-text-off);
+}
+
+/*----------gallery-----------*/
 .hero-section {
   background-color: teal;
   width: 200;
@@ -78,17 +132,8 @@ body {
   width: 200;
 }
 
-.filters {
-  background-color: violet;
+/**********footer**********/
+.footer {
+  background-color: var(--footer-bg);
   width: 200;
-}
-
-.filter-button {
-  text-decoration: none;
-  background-color: F5F4FA;
-}
-
-.filter-link {
-  text-decoration: none;
-  color: /*--212121;*/ var(--filter-text-off);
 }
