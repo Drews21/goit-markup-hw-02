@@ -36,7 +36,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--projects-title-color);
 }
@@ -46,8 +45,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.8;
-  /* identical to box height, or 187% */
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--projects-item-color);
 }
@@ -125,8 +123,8 @@ body {
 
 .team-article {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  /*font-style: normal;
+  font-weight: normal;*/
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -149,8 +147,23 @@ color: #212121;*/
 .skills-item {
 }
 .skills-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .skills-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .doing {
 }
@@ -164,18 +177,29 @@ color: #212121;*/
 /*******стили для странички Портфолио***********/
 
 /*************filter************/
-.filter-btn:hover,
-.filter-btn:focus {
-  color: var(--btn-bg-active);
+
+.filter-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.filters {
-  background-color: violet;
-  width: 200;
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--filter-text-on);
+  background: var(--btn-bg-active);
+  cursor: pointer;
 }
 
 .filter-item {
-  background-color: #f5f4fa;
+  background-color: var(--btn-bg-standby);
+}
+.filter-item:hover {
+  color: var(--btn-bg-active);
 }
 
 .filter-link {
@@ -185,17 +209,17 @@ color: #212121;*/
 
 /**********footer**********/
 .footer {
-  background-color: var(--footer-bg);
+  background: var(--footer-bg);
   width: 200;
 }
 
 .maps .mail {
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
