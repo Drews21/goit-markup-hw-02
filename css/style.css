@@ -11,6 +11,7 @@
   --header-item-active: #2196f3;
   --projects-title-color: #212121;
   --projects-item-color: #757575;
+  --team-bg-color: #f5f4fa;
 }
 
 body {
@@ -104,7 +105,7 @@ body {
 }
 
 .team {
-  background-color: tomato;
+  background-color: var(--team-bg-color);
   /*width: 200;*/
 }
 .team-list {
@@ -116,12 +117,29 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
+
+.team-article {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;*/
 .team-img {
 }
 .skills {
@@ -157,7 +175,6 @@ body {
 }
 
 .filter-item {
-  /*text-decoration: none;*/
   background-color: #f5f4fa;
 }
 
@@ -170,4 +187,15 @@ body {
 .footer {
   background-color: var(--footer-bg);
   width: 200;
+}
+
+.maps .mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
