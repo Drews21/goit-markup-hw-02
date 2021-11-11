@@ -1,6 +1,7 @@
 :root {
   --footer-bg: #2f303a;
   /*---filters button colors---*/
+  --hero-bg: #2f303a;
   --btn-bg-active: #2196f3;
   --btn-bg-standby: #f5f4fa;
   --filter-text-on: #ffffff;
@@ -71,11 +72,55 @@ body {
 
 /*******стили для странички Студия***********/
 
+/*----------gallery-----------*/
+.hero-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background: var(--hero-bg);
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.team {
+  background-color: tomato;
+  /*width: 200;*/
+}
 .team-list {
 }
 .team-item {
 }
 .team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
 }
 .team-img {
 }
@@ -112,24 +157,13 @@ body {
 }
 
 .filter-item {
-  text-decoration: none;
+  /*text-decoration: none;*/
   background-color: #f5f4fa;
 }
 
 .filter-link {
   text-decoration: none;
   color: var(--filter-text-off);
-}
-
-/*----------gallery-----------*/
-.hero-section {
-  background-color: teal;
-  width: 200;
-}
-
-.team {
-  background-color: tomato;
-  width: 200;
 }
 
 /**********footer**********/
