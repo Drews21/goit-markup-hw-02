@@ -1,30 +1,75 @@
 :root {
-  --footer-bg: #2f303a;
-  /*---filters button colors---*/
+  --pr-contact: #757575;
+
   --hero-bg: #2f303a;
   --btn-bg-active: #2196f3;
   --btn-bg-standby: #f5f4fa;
   --filter-text-on: #ffffff;
   --filter-text-off: #212121;
   --accent-color: #2196f3;
+
   --header-item: #212121;
   --header-item-active: #2196f3;
+
   --projects-title-color: #212121;
   --projects-item-color: #757575;
   --team-bg-color: #f5f4fa;
+
+  --footer-bg: #2f303a;
 }
 
 body {
   font-family: "open sans", "sans-serif";
-}
-
-/******шрифты*******/
-
-.header-link {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+}
+
+/******HEADER*******/
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.primary-contact:hover,
+.primary-contact:focus {
+  color: var(--filter-text-on);
+  background: var(--btn-bg-active);
+  cursor: pointer;
+}
+.contact-list {
+  list-style: none;
+  color: var(--pr-contact);
+}
+.nav-item {
+  font-weight: normal;
   font-size: 14px;
+}
+.primary-contact {
+  /*font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;*/
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--pr-contact);
+}
+.nav-link {
+  /*font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;*/
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-item);
@@ -50,32 +95,13 @@ body {
   color: var(--projects-item-color);
 }
 
-.logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 /*******стили для странички Студия***********/
 
 /*----------gallery-----------*/
 .hero-section {
-  font-family: Roboto;
+  /*font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 900;*/
   font-size: 44px;
   line-height: 1.36;
 
@@ -87,7 +113,7 @@ body {
   background: var(--hero-bg);
 }
 
-.hero-btn {
+.primary-btn {
   background-color: var(--accent-color);
   font-family: Roboto;
   font-style: normal;
@@ -213,13 +239,17 @@ color: #212121;*/
   width: 200;
 }
 
-.maps .mail {
-  text-decoration: none;
-  font-family: Roboto;
+.maps,
+.mail,
+.tel {
+  /*font-family: Roboto;*/
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.maps {
+  color: rgb(255, 255, 255);
 }
