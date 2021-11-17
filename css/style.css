@@ -24,7 +24,7 @@ body {
   font-style: normal;
 }
 
-/******HEADER*******/
+/******------HEADER------*******/
 
 .logo {
   font-family: Raleway;
@@ -75,27 +75,7 @@ body {
   color: var(--header-item);
 }
 
-.projects-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--projects-title-color);
-}
-
-.projects-item {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--projects-item-color);
-}
-
-/*******стили для странички Студия***********/
+/*******-------STUDIO-----***********/
 
 /*----------gallery-----------*/
 
@@ -201,7 +181,9 @@ body {
 
 /*************filter************/
 
-.filter-btn {
+.filter {
+}
+.secondary-btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -211,8 +193,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.secondary-btn:hover,
+.secondary-btn:focus {
   color: var(--filter-text-on);
   background: var(--btn-bg-active);
   cursor: pointer;
@@ -230,14 +212,30 @@ body {
   color: var(--filter-text-off);
 }
 
-/**********footer**********/
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--projects-title-color);
+}
+
+.projects-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--projects-item-color);
+}
+
+/*----------FOOTER----------*/
 .footer {
   background: var(--footer-bg);
   width: 200;
 }
 
-.maps,
-.mail,
+.map-link,
+.mail-link,
 .tel {
   /*font-family: Roboto;*/
   font-style: normal;
@@ -247,6 +245,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.maps {
+.map-link {
   color: rgb(255, 255, 255);
 }
