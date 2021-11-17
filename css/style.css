@@ -1,5 +1,5 @@
 :root {
-  --pr-contact: #757575;
+  --prm-contact: #757575;
 
   --hero-bg: #2f303a;
   --btn-bg-active: #2196f3;
@@ -50,7 +50,7 @@ body {
 }
 .contact-list {
   list-style: none;
-  color: var(--pr-contact);
+  color: var(--prm-contact);
 }
 .nav-item {
   font-weight: normal;
@@ -63,7 +63,7 @@ body {
   font-size: 14px;*/
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--pr-contact);
+  color: var(--prm-contact);
 }
 .nav-link {
   /*font-family: Roboto;
@@ -115,7 +115,6 @@ body {
   font-style: normal;
   font-size: 14px;
 }
-
 .skills-list {
 }
 .skills {
