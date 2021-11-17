@@ -98,10 +98,11 @@ body {
 /*******стили для странички Студия***********/
 
 /*----------gallery-----------*/
-.hero-section {
-  /*font-family: Roboto;
+
+.hero {
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 900;*/
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 
@@ -109,10 +110,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-
+}
+.hero-section {
+  text-align: center;
   background: var(--hero-bg);
 }
-
+/*-----button in HERO-----*/
 .primary-btn {
   background-color: var(--accent-color);
   font-family: Roboto;
@@ -121,83 +124,77 @@ body {
   font-size: 16px;
   line-height: 1.87;
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
 
-.team {
-  background-color: var(--team-bg-color);
-  /*width: 200;*/
-}
-.team-list {
-}
-.team-item {
-}
-.team-title {
+.base-skills {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
 }
 
-.team-article {
-  font-family: Roboto;
-  /*font-style: normal;
-  font-weight: normal;*/
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/*font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;*/
-.team-img {
+.skills-list {
 }
 .skills {
 }
-.skills-list {
-}
-.skills-item {
-}
 .skills-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .skills-subtitle {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.doing {
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*.doing {
 }
 .doing-list {
 }
 .doing-item {
 }
 .doing-img {
+}*/
+
+.team {
+  background-color: var(--team-bg-color);
+  /*width: 200;*/
+}
+/*.team-list {
+}
+.team-item {
+}
+.team-mate {
+}*/
+.team-mate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-mate-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*******стили для странички Портфолио***********/
