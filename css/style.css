@@ -127,10 +127,10 @@ body {
   font-style: normal;
   font-size: 14px;
 }
-.skills-list {
+/*.skills-list {
 }
 .skills {
-}
+}*/
 .skills-title {
   font-weight: bold;
   line-height: 1.14;
@@ -192,8 +192,6 @@ body {
 
 /*************filter************/
 
-.filter {
-}
 .secondary-btn {
   font-family: Roboto;
   font-style: normal;
@@ -211,9 +209,6 @@ body {
   cursor: pointer;
 }
 
-.filter-item {
-  background-color: var(--btn-bg-standby);
-}
 .filter-item:hover {
   color: var(--btn-bg-active);
 }
