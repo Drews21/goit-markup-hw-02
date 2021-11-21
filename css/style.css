@@ -13,7 +13,6 @@
 body {
   /*font-family: "sans-serif";-----emergecy fonts*/
   font-family: Roboto;
-  font-style: normal;
 }
 
 /******------HEADER------*******/
@@ -27,9 +26,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.header-logo {
+.black-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -113,7 +111,6 @@ body {
 }
 
 .skills-title {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -185,7 +182,7 @@ body {
 }
 
 .projects-title {
-  font-weight: bold;
+  /* font-weight: bold;*/
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -193,7 +190,7 @@ body {
 }
 
 .projects-text {
-  font-weight: normal;
+  /*font-weight: normal;*/
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -206,7 +203,7 @@ body {
   width: 200;
 }
 
-.footer-logo {
+.white-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -216,9 +213,11 @@ body {
   color: var(--secondary-color);
 }
 
+.address {
+  font-style: normal;
+}
 .map-link,
 .secondary-contact-link {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -227,4 +226,9 @@ body {
 }
 .map-link {
   color: var(--secondary-color);
+}
+.map-link:hover,
+.secondary-contact-link:hover {
+  color: var(--accent-color);
+  cursor: pointer;
 }
